@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-left img{
+   width: 6vw;
+}
+.nav-bar, .nav-left, .links{
+   display:flex;
+   align-items: center;
+   font-weight: bold;
+}
+.links a{
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: blue;
+   margin: 8px 8px;
+}
+.links a:hover{
+   color: black;
+}
+.nav-bar{
+   align-items: center;
+   justify-content: space-evenly;
+   border: 1px solid rgb(255, 153, 0);
+   background-color: white;
+   position:sticky;
+   top: 0;
+   box-shadow: 8px 8px 10px grey;
+   height: 10ch;
+}
+
+
+.outer-div{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+}
+.inner-div-content{
+   width: 50%;
+}
+h1.calligraphy{
+   font-size: 4rem;
+   color: brown;
+}
+h2.heading{
+   font-size: 2rem;
+   color: gray;
+}
+.register, .Login{
+   width: 144px;
+   height: 44px;
+   border-radius: 6px;
+   font-size: 1rem;
+   margin: 30px 10px;
+   border: 2px solid rgb(132, 0, 255);
+   background-color: rgb(132, 0, 255);
+   color: white;
+   box-shadow: none;
+   transition: color 0.4s ease-in-out;
+   transition: background-color 0.4s ease-in-out;
+   font-weight: bold;
+}
+.register:hover{
+   background-color: white;
+   color:rgb(132, 0, 255) ;
+
+}
+.Login:hover{
+   background-color: white;
+   color:rgb(132, 0, 255) ;
+
+}
+.classes a{
+   color: black;
+   font-size: 1.5rem;
+   font-weight: bold
+
+}
+.card-image1 img,.card-image2 img,.card-image3 img{
+   width: 16vw;
+}
+
